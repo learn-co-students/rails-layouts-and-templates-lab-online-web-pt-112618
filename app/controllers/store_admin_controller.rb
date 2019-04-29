@@ -1,10 +1,12 @@
 class StoreAdminController < StaticController
 
+  layout "home"
+
   def orders
   end
 
   def home
-  end  
+  end
 
   def invoice
   end
